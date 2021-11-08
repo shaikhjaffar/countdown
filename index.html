@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Count Down</title>
+</head>
+<body>
+	<div class="mainbody">
+    <h1 style="justify-content:center;font-size:60px;text-align: center;background-color: blanchedalmond;border-radius: 20%;width: 72%;margin-left: 20%;">Count Down </h1>
+    
+    <div id="container" style="background-color: seashell;text-align: center;width: 50%;height:50%;position:relative;margin-left: 30%;border-radius: 20%;">
+    <p id="label"style="font-size:30px"class="label">Let the countdown begin!!</p> 
+    <input id="hour" type="number" max="99" min="0" value="0" class="time" style="color: seashell;background-color: silver;border-radius: 20%;height: 30px;width: 60px;"><p id="p1" class="semicolon">HOUR</p>
+     <input id="minute"  style="color: seashell;background-color: silver;border-radius: 20%;height: 30px;width: 60px; type="number" max="60" min="0" value="0" class="time"><p id="p2" class="semicolon">MINUTE</p>
+        <input id="sec" style="background-color: silver;border-radius:20%;height: 30px;width: 60px;  type="number" max="60" min="0" value="0" class="time"><p id="p2" class="semicolon">SECOND</p><br>
+        <!-- buttons -->
+    <button id="start"style="background-color:tomato;border:none;border-radius:25px" class="btn">Start</button><br>
+   <button id="reset"style="background-color:blue;border:none;border-radius:25px;;"class="btn">Reset</button>
+ </div>
+ <p style="color:white;font-size:41px;font-weight:900px">Set time Inplace of 0 and Press Start Button</p>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
